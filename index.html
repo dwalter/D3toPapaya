@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/papaya.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/graph.css" />
+        <script type="text/javascript" src="js/papaya.js"></script>
+        
+        <title>Papaya Viewer</title>
+    </head>
+
+	<body>
+		<div class="container">
+			<div class="graphContainer">
+				<span id="graphHeader">Graph Container</span>
+		    	<div id="d3_selectable_force_directed_graph"></div>
+		    	<div id="description">
+		    		<span >
+		    			Graph data: Medical patients. The graph above is desgined to display medical patients and their similarites, in relation to their lung features. 
+
+		    		</span>
+		    	</div>
+		    </div>
+		    <div class="papayaContainer">
+		    	<span id="papayaHeader"> Papaya Container </span>
+		    	<div class="papaya" data-params="params"></div>
+		    </div>
+		</div>
+	    <script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="js/plot2.js"></script>
+		<script>selectableForceDirectedGraph();</script>
+
+		<script type="text/javascript" src="js/imageLoader.js"></script>
+	</body>
+</html>
+

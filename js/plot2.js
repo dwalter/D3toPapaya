@@ -6,7 +6,7 @@ $.getScript("papaya.js", function(){
 
 
 function selectableForceDirectedGraph() {
-    var width = 960,
+    var width = 500,
 
     height = 500,
     shiftKey, ctrlKey;
